@@ -12,6 +12,8 @@ import numpy as np
 import streamlit as st
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
+st.title("AI Student predictor package")
+st.write("This is a simple web application that predicts the package of a student based on cgpa.")
 df=pd.read_csv("C:/Users/CS-04/Documents/placement1.csv")
 print(df)
 print(df.isnull().sum())
